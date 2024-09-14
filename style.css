@@ -1,26 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
-    --fontFamily : "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --fontFamily: "Poppins", sans-serif;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #D9D9D9;
+body {
+  background-color: #d9d9d9;
 }
-#app_title{
-    text-align: center;
-    font-size: 4rem;
-    color: #48A300;
+main {
+  padding: 0 16px 32px;
 }
-#app_title span{
-color: #61481c;
+#app_title {
+  text-align: center;
+  font-size: 4rem;
+  color: #48a300;
+  font-family: var(--fontFamily);
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#app_title span {
+  color: #61481c;
+}
+.container {
+  background-color: #fbfbfb;
+  max-width: 660px;
+  margin-inline: auto;
+  border-radius: 15px;
+  padding: 32px 48px;
+  box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+}
+.subtitle {
+  display: flex;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.sun-icon {
+  width: 100px;
+  margin-left: -1rem;
 }
