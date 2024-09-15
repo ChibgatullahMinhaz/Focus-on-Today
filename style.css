@@ -42,3 +42,36 @@ main {
   vertical-align: middle;
   margin-left: 0.5rem;
 }
+.Raise_gole {
+  font-family: var(--fontFamily);
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0.7rem;
+  color: #858585;
+}
+.progress-bar {
+  height: 40px;
+  background-color: #e9f2e2;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  position: relative;
+}
+.progress-value {
+  background-color: #48a300;
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+.progress-value span {
+  margin-left: 1rem;
+  font-family: var(--fontFamily);
+}
+.goal_error{
+  font-family: var(--fontFamily);
+  font-weight: 400;
+  position: absolute;
+  color: #FF5151;
+  font-size: 14px;
+}
