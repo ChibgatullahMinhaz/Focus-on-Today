@@ -59,7 +59,6 @@ main {
 .progress-value {
   background-color: #48a300;
   height: 100%;
-  width: 50%;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -75,6 +74,9 @@ main {
   color: #ff5151;
   font-size: 14px;
   display: none;
+}
+.show-error .goal_error{
+  display: block;
 }
 .custom_checkbox {
   width: 24px;
