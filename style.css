@@ -32,12 +32,13 @@ main {
 }
 .subtitle {
   display: flex;
-  font-family: Poppins;
-  font-size: 32px;
+  font-family: var(--fontFamily);
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 48px;
   text-align: left;
 }
 .sun-icon {
-  width: 30px;
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
