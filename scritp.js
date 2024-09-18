@@ -13,6 +13,9 @@ checkboxs.forEach((checked) => {
         })
         if (goapChecked) {
             checked.parentElement.classList.toggle('completed');
+            const inputId = checked.nextElementSibling.id;
+            allgoals[inputId].completed = !allgoals[inputId].completed;
+            localStorage.setItem('allgoals', JSON.stringify(allgoals));
         } else {
             progressbar.classList.add('show-error')
         }
@@ -22,7 +25,7 @@ inputFields.forEach((input) => { // focusing on inputFeilds
 
     if (allgoals[input.id]) {
         input.value = allgoals[input.id].name;
-        if (!allgoals[input.id]) {
+        if (!allgoals[input.id].completed) {
             input.parentElement.classList.add('completed');
         }
     }
