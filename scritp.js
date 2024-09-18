@@ -25,7 +25,7 @@ inputFields.forEach((input) => { // focusing on inputFeilds
 
     if (allgoals[input.id]) {
         input.value = allgoals[input.id].name;
-        if (!allgoals[input.id].completed) {
+        if (allgoals[input.id].completed) {
             input.parentElement.classList.add('completed');
         }
     }
